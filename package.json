@@ -44,14 +44,8 @@
   },
   "version": "0.1.0",
   "scripts": {
-    "eslint": "./node_modules/eslint/bin/eslint.js \"app/javascript/**/*.{js,vue}\" --fix",
-    "start:dev": "webpack-dev-server --config config/webpack/webpack.config.js --open",
-    "build:dev": "webpack --config config/webpack/webpack.config.js --env development",
-    "build:prod": "webpack --config config/webpack/webpack.config.js --env production",
-    "watch:dev": "webpack --watch --config config/webpack/webpack.config.js",
-    "start:prod": "NODE_ENV=production node server.js",
-    "lint": "eslint 'src/**/*.{js,vue}' --fix"
-  },  
+    "eslint": "./node_modules/eslint/bin/eslint.js \"app/javascript/**/*.{js,vue}\" --fix"
+  },
   "babel": {
     "presets": [
       "./node_modules/shakapacker/package/babel/preset.js"
